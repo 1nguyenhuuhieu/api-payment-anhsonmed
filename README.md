@@ -19,8 +19,9 @@ API Thanh Toán Viện Phí của Trung tâm Y tế huyện Anh Sơn cung cấp 
 - **Response**: 
 	- `status_code`: Mã trạng thái
 	 - `description`: Mô tả trạng thái
-    
-- **Mô tả chi tiết status code và chi tiết**
+
+ 
+**Mô tả chi tiết status code và chi tiết**
 
 | status_code |description 
 |--|--|
@@ -47,7 +48,7 @@ API Thanh Toán Viện Phí của Trung tâm Y tế huyện Anh Sơn cung cấp 
 - **Response**: Trả về thông tin trạng thái của giao dịch.
   - `status_code`: Mã trạng thái
   - `description`: Mô tả trạng thái
-    
+
 **Mô tả chi tiết status code và chi tiết**
 
 | status_code |description 
