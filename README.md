@@ -10,7 +10,7 @@ API Payment at Anh Son Medical Center
 API Thanh Toán Viện Phí của Trung tâm Y tế huyện Anh Sơn cung cấp một giải pháp tiên tiến cho các ngân hàng, giúp đơn giản hóa và tự động hóa quy trình thanh toán viện phí. Được thiết kế với mục tiêu tối ưu hóa trải nghiệm thanh toán cho bệnh nhân, API này hứa hẹn mang lại sự thuận tiện và hiệu quả cao trong quản lý tài chính y tế.
 
 ## 2. Yêu Cầu Xác Thực
-**API_KEY và API_NAME**: Để đảm bảo an toàn thông tin, mỗi ngân hàng cần cung cấp `API_KEY` và `API_NAME` khi truy cập các endpoint. Những thông tin này sẽ được cấp riêng và quản lý nghiêm ngặt để bảo vệ dữ liệu.
+**X-API-KEY và X-API-NAME**: Để đảm bảo an toàn thông tin, mỗi ngân hàng cần cung cấp `X-API-KEY` và `X-API-NAME` khi truy cập các endpoint. Những thông tin này sẽ được cấp riêng và quản lý nghiêm ngặt để bảo vệ dữ liệu.
 
 ## 3. Chi Tiết Các Endpoint
 
