@@ -23,7 +23,7 @@ API Thanh Toán Viện Phí của Trung tâm Y tế huyện Anh Sơn cung cấp 
 	-   `X-API-KEY`: API key của bạn.
 	-   `X-API-NAME`: Tên API. 
 
-### Response thành công### :
+### Response thành công:
 Trả về thông tin bệnh nhân và thanh toán.
 -   Mã trạng thái HTTP 200.
 - **Dữ liệu JSON bao gồm:**
@@ -54,13 +54,13 @@ JSON:
 ```
 
  
-- **Response lỗi**
+### Response lỗi
 
-	| status_code |description
-	|--|--|
-	|400|Yêu cầu không hợp lệ. Thông tin truy vấn không đủ hoặc sai định dạng.
-	|404|Không tìm thấy. không tìm thấy bệnh nhân hoặc không có khoản viện phí cần thanh toán.
-	|500|Lỗi máy chủ. Lỗi phát sinh từ phía máy chủ khi xử lý yêu cầu.
+| status_code |description
+|--|--|
+|400|Yêu cầu không hợp lệ. Thông tin truy vấn không đủ hoặc sai định dạng.
+|404|Không tìm thấy. không tìm thấy bệnh nhân hoặc không có khoản viện phí cần thanh toán.
+|500|Lỗi máy chủ. Lỗi phát sinh từ phía máy chủ khi xử lý yêu cầu.
 
 
 ### 3.2. Tạo Một Giao Dịch Mới (Create Transaction)
@@ -73,16 +73,18 @@ JSON:
 - **Headers:**
 	-   `X-API-KEY`: API key của bạn.
 	-   `X-API-NAME`: Tên API.
-- **Response thành công**: Trả về thông tin trạng thái của giao dịch.
-  - Mã trạng thái HTTP 201
-  - **Dữ liệu JSON bao gồm**:
-	-   `transaction`: Đối tượng chứa thông tin giao dịch.
-	    -   `amount`: Số tiền của giao dịch.
-	    -   `bankref_id`: ID tham chiếu ngân hàng (nếu có).
-	    -   `notes`: Ghi chú về giao dịch (nếu có).
-	    -   `created_time`: Thời gian tạo giao dịch.
-	-   `patient`: Đối tượng chứa thông tin bệnh nhân tương tự như ở trên.
-	-   `payment`: Đối tượng chứa thông tin thanh toán tương tự như ở trên.
+### Response thành công:
+
+Trả về thông tin trạng thái của giao dịch.
+- Mã trạng thái HTTP 201
+- **Dữ liệu JSON bao gồm**:
+-   `transaction`: Đối tượng chứa thông tin giao dịch.
+    -   `amount`: Số tiền của giao dịch.
+    -   `bankref_id`: ID tham chiếu ngân hàng (nếu có).
+    -   `notes`: Ghi chú về giao dịch (nếu có).
+    -   `created_time`: Thời gian tạo giao dịch.
+-   `patient`: Đối tượng chứa thông tin bệnh nhân tương tự như ở trên.
+-   `payment`: Đối tượng chứa thông tin thanh toán tương tự như ở trên.
 
 JSON:
 ```
@@ -106,7 +108,7 @@ JSON:
 ```
 
 
-- **Response lỗi**
+### Response lỗi
 
 | status_code |description 
 |--|--|
