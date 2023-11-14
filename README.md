@@ -23,19 +23,20 @@ API Thanh Toán Viện Phí của Trung tâm Y tế huyện Anh Sơn cung cấp 
 	-   `X-API-KEY`: API key của bạn.
 	-   `X-API-NAME`: Tên API. 
 
-- **Response thành công**: Trả về thông tin bệnh nhân và thanh toán.
-	-   Mã trạng thái HTTP 200.
-	- **Dữ liệu JSON bao gồm:**
+### Response thành công### :
+Trả về thông tin bệnh nhân và thanh toán.
+-   Mã trạng thái HTTP 200.
+- **Dữ liệu JSON bao gồm:**
 
-		-   `patient`: Đối tượng chứa thông tin về bệnh nhân.
+	-   `patient`: Đối tượng chứa thông tin về bệnh nhân.
 		   
-		    -   `patient_name`: Tên của bệnh nhân.
-		    -   `patient_number`: Mã số Y tế của bệnh nhân.
-		-   `payment`: Đối tượng chứa thông tin về thanh toán.
+	    -   `patient_name`: Tên của bệnh nhân.
+	    -   `patient_number`: Mã số Y tế của bệnh nhân.
+	-   `payment`: Đối tượng chứa thông tin về thanh toán.
 		    
-		    -   `payment_info`: ID của thông tin thanh toán (`PaymentInfo`).
-		    -   `payment_amount`: Tổng số tiền thanh toán.
-		    -   `payment_status`: Trạng thái thanh toán hiển thị dưới dạng chuỗi có thể đọc được.
+	    -   `payment_info`: ID của thông tin thanh toán (`PaymentInfo`).
+	    -   `payment_amount`: Tổng số tiền thanh toán.
+	    -   `payment_status`: Trạng thái thanh toán hiển thị dưới dạng chuỗi có thể đọc được.
 
 JSON:
 ```
