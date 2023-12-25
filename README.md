@@ -58,8 +58,9 @@ JSON:
 
 | status_code |description
 |--|--|
+|204|Không có khoản viện phí cần thanh toán
 |400|Yêu cầu không hợp lệ. Thông tin truy vấn không đủ hoặc sai định dạng.
-|404|Không tìm thấy. không tìm thấy bệnh nhân hoặc không có khoản viện phí cần thanh toán.
+|404|Không tìm thấy. không tìm thấy bệnh nhân.
 |500|Lỗi máy chủ. Lỗi phát sinh từ phía máy chủ khi xử lý yêu cầu.
 
 
